@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    background-color: #121214;
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+body p{
+    color: rgba(156, 156, 156, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    border-bottom: 2px transparent;
+}
+.container_logo{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 229px;
+    height: 69;
+    color: red;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41.6px;
+    color:white;
+    padding-bottom: 61px;
+}
+.container {
+    width:700px;
+    display: inline;
+    justify-content: space-around;
+    margin: auto;
+}
+.perfil{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    gap: 26px;  
+ }
+.perfil li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.perfil li img {
+    margin-bottom: 16px;
+    border: 2px transparent solid;
+    border-radius: 8px;
+}
+.perfil li:hover img{
+    border-color: white
+}
+.perfil li:hover p{
+    color : white;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .button button{
+    width: 200px;
+    height: 50px;
+    background-color:#121214;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px white solid;
+  }
+  .button:hover button{
+    color: black;
+    background-color: white;
+  }
+.container ul {}
+.container ul li {}
+ 
